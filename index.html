@@ -195,7 +195,7 @@ function OverviewTab() {
 }
 
 /* ====================================================================== */
-/*  TAB 2 — Course Roadmap                                                */
+/*  TAB 2 — Program Roadmap                                                */
 /* ====================================================================== */
 
 const FOUR_YEAR = [
@@ -365,7 +365,7 @@ function RoadmapTab() {
   const [plan, setPlan] = useState("four");
   return (
     <div>
-      <SectionTitle kicker="Course Roadmap">Your Academic Journey</SectionTitle>
+      <SectionTitle kicker="Program Roadmap">Your Academic Journey</SectionTitle>
 
       <Callout tone="info">
         Both 4-year and 5-year plans are available. Choose the pace that works best for
@@ -879,7 +879,7 @@ const FAQ = [
   },
   {
     q: "When should I take EDLD 922–925?",
-    a: "Work with your dissertation chair to determine the best timing for taking EDLD 922–925. The course roadmap provides suggested schedules for both 4-year and 5-year plans, but your actual enrollment should be based on your research progress and your chair's guidance.",
+    a: "Work with your dissertation chair to determine the best timing for taking EDLD 922–925. The program roadmap provides suggested schedules for both 4-year and 5-year plans, but your actual enrollment should be based on your research progress and your chair's guidance.",
   },
   {
     q: "How do I form my dissertation committee?",
@@ -930,7 +930,7 @@ function FaqTab() {
 
 function QuickLinks({ go }) {
   const links = [
-    { label: "Course Roadmap", tab: "roadmap" },
+    { label: "Program Roadmap", tab: "roadmap" },
     { label: "Doctoral Milestones", tab: "milestones" },
     { label: "Dissertation Outline", tab: "dissertation" },
     { label: "Forms & Documents", tab: "forms" },
